@@ -7,11 +7,7 @@ public:
     int value;
     Node* next;
 
-    Node(int key, int value) {
-        this->key = key;
-        this->value = value;
-        this->next = nullptr;
-    }
+    Node(int key, int value) : key(key), value(value), next(nullptr) {}
 };
 
 
